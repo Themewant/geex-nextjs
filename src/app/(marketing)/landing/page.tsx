@@ -58,7 +58,7 @@ export default function LandingPage() {
                     <br />
                     {" Dashboard"}
                   </span>
-                  {" HTML Template"}
+                  {" Next.js Template"}
                 </h1>
               </div>
               <ul className={"banner-feature-list"}>
@@ -158,7 +158,7 @@ export default function LandingPage() {
                   {"Beautiful Prebuilt Demos"}
                 </h2>
                 <p className={"desc split-collab"}>
-                  {"Discover a world of elegance with our collection of beautiful, "}
+                  {"Explore the tools and components behind beautiful, "}
                   <br />
                   {"hand-crafted designs ready to kickstart your journey"}
                 </p>
@@ -266,7 +266,7 @@ export default function LandingPage() {
                   {"Prebuilt Apps"}
                 </h2>
                 <p className={"desc split-collab"}>
-                  {"Discover a world of elegance with our collection of beautiful, "}
+                  {"Explore the tools and components behind beautiful, "}
                   <br />
                   {"hand-crafted designs ready to kickstart your journey"}
                 </p>
@@ -312,7 +312,7 @@ export default function LandingPage() {
                   </div>
                   <h3 className={"content"}>
                     <Link href={"/calendar"} target={"_blank"} rel={"noopener noreferrer"}>
-                      {"Calender"}
+                      {"Calendar"}
                     </Link>
                   </h3>
                 </div>
@@ -372,7 +372,7 @@ export default function LandingPage() {
                   {"Beautiful Inner Pages"}
                 </h2>
                 <p className={"desc split-collab"}>
-                  {"Discover a world of elegance with our collection of beautiful, "}
+                  {"Explore the tools and components behind beautiful, "}
                   <br />
                   {"hand-crafted designs ready to kickstart your journey"}
                 </p>
@@ -506,9 +506,9 @@ export default function LandingPage() {
                   {"Features"}
                 </h2>
                 <p className={"desc split-collab"}>
-                  {"Discover a world of elegance with our collection of "}
+                  {"Explore the tools and components behind "}
                   <br />
-                  {" beautiful features"}
+                  {" the Geex Next dashboard"}
                 </p>
               </div>
             </div>
@@ -532,17 +532,17 @@ export default function LandingPage() {
             </li>
             <li className={"wow fadeInUp"} data-wow-duration={"1s"} data-wow-delay={".3s"} style={{"visibility":"visible","animationDuration":"1s","animationDelay":"0.3s","animationName":"fadeInUp"}}>
               <div>
-                <img src={"/landing-assets/images/icon/saas.svg"} alt={"image"} loading={"lazy"} />
+                <i className="fa-solid fa-layer-group" aria-hidden="true" style={{ display: "block", fontSize: 48, lineHeight: "70px", color: "#a89aff" }} />
                 <span>
-                  {"Built With SASS "}
+                  {"Next.js App Router "}
                 </span>
               </div>
             </li>
             <li className={"wow fadeInUp"} data-wow-duration={"1s"} data-wow-delay={".3s"} style={{"visibility":"visible","animationDuration":"1s","animationDelay":"0.3s","animationName":"fadeInUp"}}>
               <div>
-                <img src={"/landing-assets/images/icon/gulp.svg"} alt={"image"} loading={"lazy"} />
+                <i className="fa-solid fa-code" aria-hidden="true" style={{ display: "block", fontSize: 48, lineHeight: "70px", color: "#a89aff" }} />
                 <span>
-                  {"Gulp "}
+                  {"TypeScript "}
                 </span>
               </div>
             </li>
@@ -556,17 +556,17 @@ export default function LandingPage() {
             </li>
             <li className={"wow fadeInUp"} data-wow-duration={"1s"} data-wow-delay={".3s"} style={{"visibility":"visible","animationDuration":"1s","animationDelay":"0.3s","animationName":"fadeInUp"}}>
               <div>
-                <img src={"/landing-assets/images/icon/webpack.svg"} alt={"image"} loading={"lazy"} />
+                <i className="fa-solid fa-bolt" aria-hidden="true" style={{ display: "block", fontSize: 48, lineHeight: "70px", color: "#a89aff" }} />
                 <span>
-                  {"Webpack "}
+                  {"Turbopack "}
                 </span>
               </div>
             </li>
             <li className={"wow fadeInUp"} data-wow-duration={"1s"} data-wow-delay={".3s"} style={{"visibility":"visible","animationDuration":"1s","animationDelay":"0.3s","animationName":"fadeInUp"}}>
               <div>
-                <img src={"/landing-assets/images/icon/yarn.svg"} alt={"image"} loading={"lazy"} />
+                <i className="fa-solid fa-atom" aria-hidden="true" style={{ display: "block", fontSize: 48, lineHeight: "70px", color: "#a89aff" }} />
                 <span>
-                  {"Yarn "}
+                  {"React "}
                 </span>
               </div>
             </li>
@@ -574,7 +574,7 @@ export default function LandingPage() {
               <div>
                 <img src={"/landing-assets/images/icon/7.png"} alt={"image"} loading={"lazy"} />
                 <span>
-                  {"Clean Coded "}
+                  {"Reusable Components "}
                 </span>
               </div>
             </li>
