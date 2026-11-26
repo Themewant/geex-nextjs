@@ -36,7 +36,7 @@ export default function LandingPage() {
                   </ul>
                 </nav>
                 <div className={"button-area-start"}>
-                  <a href={"https://themeforest.net/item/geex-bootstrap5-admin-dashboard-html-template/50415081?"} target={"_blank"} className={"rts-btn btn-primary"} rel={"noopener noreferrer"}>
+                  <a href={"#"} className={"rts-btn btn-primary"}>
                     <i className={"fa-regular fa-cart-shopping"} />
                     {" Purchase"}
                   </a>
@@ -97,7 +97,7 @@ export default function LandingPage() {
                 <a href={"#demos"} className={"rts-btn btn-primary"}>
                   {" View Demos"}
                 </a>
-                <a href={"https://themeforest.net/item/geex-bootstrap5-admin-dashboard-html-template/50415081?"} className={"rts-btn btn-secondary"}>
+                <a href={"#"} className={"rts-btn btn-secondary"}>
                   {"Buy Now"}
                 </a>
               </div>
@@ -643,7 +643,7 @@ export default function LandingPage() {
                   {" with geex today!"}
                 </h2>
                 <div className={"title-btn-area"}>
-                  <a href={"https://themeforest.net/item/geex-bootstrap5-admin-dashboard-html-template/50415081?"} target={"_blank"} className={"rts-btn btn-primary"} rel={"noopener noreferrer"}>
+                  <a href={"#"} className={"rts-btn btn-primary"}>
                     <i className={"fa-regular fa-cart-shopping"} />
                     {" Purchase"}
                   </a>
