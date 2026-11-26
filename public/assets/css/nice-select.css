@@ -1,0 +1,126 @@
+.geex-content .nice-select {
+  --select-surface: #fff;
+  --select-text: var(--body-color);
+  --select-accent: #782ca6;
+  --select-border: #e3d8eb;
+  --select-highlight: #f4eaf9;
+  --select-shadow: 0 12px 30px #39234826;
+  display: flex;
+  align-items: center;
+  min-width: 170px;
+  max-width: 100%;
+  height: 50px;
+  padding: 10px 38px 10px 14px;
+  padding-inline: 14px 38px;
+  border: 1px solid var(--select-border);
+  border-radius: 12px;
+  background-color: var(--select-surface);
+  color: var(--select-text);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: start !important;
+  transition: border-color .15s, box-shadow .15s, background-color .15s;
+}
+
+html[data-theme="dark"] .geex-content .nice-select {
+  --select-surface: #262330;
+  --select-text: #f1edf5;
+  --select-accent: #dea8ff;
+  --select-border: #574767;
+  --select-highlight: #40314f;
+  --select-shadow: 0 12px 30px #08061080;
+}
+
+.geex-content select.hidden-select {
+  position: absolute;
+  pointer-events: none;
+}
+
+.geex-content select.hidden-select + .nice-select ~ :is(i, svg) {
+  display: none;
+}
+
+.geex-content .nice-select.invoice_service {
+  width: 100%;
+}
+
+.geex-content .nice-select .current {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.geex-content .nice-select::after {
+  right: auto;
+  inset-inline-end: 16px;
+  width: 7px;
+  height: 7px;
+  border-color: var(--select-accent);
+}
+
+.geex-content .nice-select:hover,
+.geex-content .nice-select.open {
+  border-color: var(--select-accent);
+  background-color: var(--select-highlight);
+}
+
+.geex-content .nice-select:focus-visible {
+  outline: 2px solid var(--select-accent);
+  outline-offset: 2px;
+}
+
+.geex-content .nice-select.open {
+  z-index: 30;
+}
+
+.geex-content .nice-select .nice-select-dropdown {
+  left: auto;
+  inset-inline-start: 0;
+  box-sizing: border-box;
+  min-width: 100%;
+  max-width: min(300px, calc(100vw - 32px));
+  margin-top: 7px;
+  padding: 5px;
+  border: 1px solid var(--select-border);
+  border-radius: 12px;
+  background-color: var(--select-surface);
+  box-shadow: var(--select-shadow);
+  overflow-y: auto;
+  visibility: hidden;
+}
+
+.geex-content .nice-select.open .nice-select-dropdown {
+  visibility: visible;
+}
+
+.geex-content .nice-select .list {
+  margin: 0;
+}
+
+.geex-content .nice-select .option {
+  padding: 8px 12px;
+  border-radius: 7px;
+  line-height: 20px;
+  text-align: start;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+.geex-content .nice-select .option.selected {
+  color: var(--select-accent);
+  font-weight: 600;
+}
+
+.geex-content .nice-select .option:hover,
+.geex-content .nice-select .option.focus {
+  background-color: var(--select-highlight);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .geex-content .nice-select,
+  .geex-content .nice-select::after,
+  .geex-content .nice-select .nice-select-dropdown {
+    transition: none;
+  }
+}
