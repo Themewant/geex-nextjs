@@ -12,7 +12,7 @@ export default function DashboardPage() {
       <GeexResources styles={["/assets/vendor/css/bootstrap/bootstrap.css","/assets/vendor/css/swiper.min.css","/assets/css/style.css","https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css"]} scripts={["/assets/vendor/js/jquery/jquery-3.5.1.min.js","/assets/vendor/js/jquery/jquery-ui.js","/assets/vendor/js/bootstrap/bootstrap.min.js","/assets/vendor/js/swiper.min.js","/assets/vendor/js/apexcharts.min.js","/assets/vendor/js/dragula.js","/assets/js/main.js"]} />
       <Header />
       <main className={"geex-main-content"}>
-        <Sidebar />
+        <Sidebar activeDemo="/" />
         <Customizer />
         <div className={"geex-content"}>
           <div className={"geex-content__header"}>

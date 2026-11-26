@@ -11,7 +11,7 @@ export default function Index3Page() {
       <GeexResources styles={["/assets/vendor/css/bootstrap/bootstrap.css","/assets/vendor/css/swiper.min.css","/assets/css/style.css","/assets/vendor/nice-select2/nice-select2.css","/assets/css/nice-select.css","https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css"]} scripts={["/assets/vendor/js/jquery/jquery-3.5.1.min.js","/assets/vendor/js/jquery/jquery-ui.js","/assets/vendor/js/bootstrap/bootstrap.min.js","/assets/vendor/js/swiper.min.js","/assets/vendor/js/apexcharts.min.js","/assets/vendor/nice-select2/nice-select2.js","/assets/js/main.js"]} />
       <Header />
       <main className={"geex-main-content"}>
-        <Sidebar />
+        <Sidebar activeDemo="/index-3" />
         <Customizer />
         <div className={"geex-content"}>
           <div className={"geex-content__header"}>

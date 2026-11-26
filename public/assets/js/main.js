@@ -259,7 +259,7 @@ window.initializeGeexDashboard = function () {
 				$('.geex-header__menu__link').first().siblings('.geex-header__submenu').slideDown();
 				
 				$('.geex-sidebar__menu__link').first().siblings('.geex-sidebar__submenu').find('.geex-sidebar__menu__link').first().addClass('active');
-				$('.geex-sidebar__menu__link').first().siblings('.geex-sidebar__submenu').slideDown();
+				$('.geex-sidebar__menu__link').first().siblings('.geex-sidebar__submenu').show();
 			}
 		});
 	}
@@ -271,7 +271,7 @@ window.initializeGeexDashboard = function () {
 
 	addActiveClass(pageSlug);
 
-	bindClick($(".geex-sidebar__menu__link"), function() {
+	bindClick($(".geex-sidebar__menu__link").not("[data-demo-submenu] .geex-sidebar__menu__link"), function() {
 		let $clickedItem = $(this);
 
         // Toggle active class and slideToggle for the clicked item's submenu
